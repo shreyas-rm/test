@@ -1,0 +1,28 @@
+[syntribos]
+#
+# End point URLs and versions of the services to be tested.
+#
+endpoint=http://localhost:5000
+# Set payload and templates path
+templates=<location_of_templates_dir/file>
+payloads=<location_of_payloads_dir>
+
+[user]
+#
+# User credentials and endpoint URL to get an AUTH_TOKEN
+# This section is only needed if you are using the identity extension.
+#
+endpoint=
+username=<yourusername>
+password=<yourpassword>
+
+[remote]
+#
+# Optional, to define remote URI and cache_dir explicitly
+#
+templates_uri=<URI to a tar file of set of templates>
+payloads_uri=<URI to a tar file of set of payloads>
+cache_dir=<a local path to save the downloaded files>
+
+[logging]
+log_dir=<location_to_save_debug_logs>
