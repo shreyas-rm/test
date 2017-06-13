@@ -16,11 +16,11 @@ def signin(request):
 
 def actionLogin(request):
     page = 'users-login'
-    
+    dsrtdrg
     request.session['error'] = None
     
     if request.method == "POST":
-        status = True
+        status = Truedfgfnvgnfjhsdfgwervwqrwe
         
         for each in ['email','password']:
             if each not in request.POST.keys():
