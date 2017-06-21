@@ -53,5 +53,5 @@ def actionLogin(request):
 @login_required
 def signout(request):
     logout(request)
-    
+    print("hiii")
     return redirect('users-login')
